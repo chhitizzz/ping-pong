@@ -16,6 +16,13 @@ batA.penup()
 batA.goto(-350, 0)
 
 # Bat B
+batB = turtle.Turtle()
+batB.speed(0)
+batB.shape("square")
+batB.color("white")
+batB.shapesize(stretch_wid=5, stretch_len=1)
+batB.penup()
+batB.goto(350, 0)
 
 # Ball
 
