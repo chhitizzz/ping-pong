@@ -11,6 +11,7 @@ batA = turtle.Turtle()
 batA.speed(0)
 batA.shape("square")
 batA.color("white")
+batA.shapesize(stretch_wid=5, stretch_len=1)
 batA.penup()
 batA.goto(-350, 0)
 
