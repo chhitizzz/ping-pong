@@ -31,8 +31,13 @@ ball.shape("square")
 ball.color("white")
 ball.penup()
 ball.goto(0, 0)
+ball.dx = 2
+ball.dy = 2
 
-# Movement
+
+
+
+# Bat Movement
 def batA_up():
     y = batA.ycor()
     y += 20
@@ -53,17 +58,16 @@ def batB_down():
     y -= 20
     batB.sety(y)
 
-
-
-
 win.listen()
 win.onkeypress(batA_up, "w")
 win.onkeypress(batA_down, "s")
 win.onkeypress(batB_up, "Up")
 win.onkeypress(batB_down, "Down")
 
-
-
 # Main game
 while True:
     win.update()
+
+# Ball movement
+    ball.setx(ball.xcor() + ball.dx)
+    ball.sety(ball.ycor() + ball.dy)
