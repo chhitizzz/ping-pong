@@ -35,6 +35,11 @@ ball.goto(0, 0)
 # Movement
 def batA_up():
     y = batA.ycor()
+    y += 20
+    batA.sety(y)
+
+win.listen()
+win.onkeypress(batA_up, "w")
 
 
 
