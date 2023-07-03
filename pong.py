@@ -43,12 +43,24 @@ def batA_down():
     y -= 20
     batA.sety(y)
 
+def batB_up():
+    y = batB.ycor()
+    y += 20
+    batB.sety(y)
+
+def batB_down():
+    y = batB.ycor()
+    y -= 20
+    batB.sety(y)
+
 
 
 
 win.listen()
 win.onkeypress(batA_up, "w")
 win.onkeypress(batA_down, "s")
+win.onkeypress(batB_up, "Up")
+win.onkeypress(batB_down, "Down")
 
 
 
