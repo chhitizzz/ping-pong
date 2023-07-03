@@ -31,10 +31,8 @@ ball.shape("square")
 ball.color("white")
 ball.penup()
 ball.goto(0, 0)
-ball.dx = 0.15
-ball.dy = 0.15
-
-
+ball.dx = 0.1
+ball.dy = 0.1
 
 
 # Bat Movement
@@ -71,3 +69,7 @@ while True:
 # Ball movement
     ball.setx(ball.xcor() + ball.dx)
     ball.sety(ball.ycor() + ball.dy)
+
+    if ball.ycor() > 290:
+        ball.sety(290)
+        ball.dy *= -1
