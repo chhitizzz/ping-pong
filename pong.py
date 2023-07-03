@@ -32,6 +32,12 @@ ball.color("white")
 ball.penup()
 ball.goto(0, 0)
 
+# Movement
+def batA_up():
+    y = batA.ycor()
+
+
+
 # Main game
 while True:
     win.update()
