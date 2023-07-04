@@ -6,6 +6,10 @@ win.bgcolor("black")
 win.setup(width=800, height=600)
 win.tracer(0)
 
+# Score
+scoreA = 0
+scoreB = 0
+
 # Bat A
 batA = turtle.Turtle()
 batA.speed(0)
@@ -40,7 +44,7 @@ pen.color("white")
 pen.penup()
 pen.hideturtle()
 pen.goto(0, 260)
-pen.write("Player A: 0               Player B: 0", align="center", font = ("Courier", 24, "normal"))
+pen.write("Player A: 0              Player B: 0", align="center", font = ("Courier", 22, "normal"))
 
 # Bat Movement
 def batA_up():
@@ -88,10 +92,12 @@ while True:
     if ball.xcor() > 390:
         ball.goto(0, 0)
         ball.dx *= -1
+        scoreA += 1
     
     if ball.xcor() < -390:
         ball.goto(0, 0)
         ball.dx *= -1
+        scoreB += 1
 
     # Ball bounce 
     if (ball.xcor() > 340 and ball.xcor() < 350) and (ball.ycor() < batB.ycor() + 40 and ball.ycor() > batB.ycor() - 40):
