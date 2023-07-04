@@ -87,5 +87,6 @@ while True:
         ball.dx *= -1
 
     # Ball bounce 
-    if ball.xcor() > 340 and (ball.ycor() < batB.ycor() + 40 and ball.ycor() > batB.ycor() - 40):
+    if (ball.xcor() > 340 and ball.xcor() < 350) and (ball.ycor() < batB.ycor() + 40 and ball.ycor() > batB.ycor() - 40):
+        ball.setx(340)
         ball.dx *= -1
