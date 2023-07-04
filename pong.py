@@ -34,6 +34,10 @@ ball.goto(0, 0)
 ball.dx = 0.07
 ball.dy = -0.07
 
+pen = turtle.Turtle()
+pen.speed(0)
+
+
 
 # Bat Movement
 def batA_up():
