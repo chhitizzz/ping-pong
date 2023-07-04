@@ -93,11 +93,13 @@ while True:
         ball.goto(0, 0)
         ball.dx *= -1
         scoreA += 1
+        pen.write("Player A: {}              Player B: {}".format(scoreA, scoreB), align="center", font = ("Courier", 22, "normal"))
     
     if ball.xcor() < -390:
         ball.goto(0, 0)
         ball.dx *= -1
         scoreB += 1
+        pen.write("Player A: {}              Player B: {}".format(scoreA, scoreB), align="center", font = ("Courier", 22, "normal"))
 
     # Ball bounce 
     if (ball.xcor() > 340 and ball.xcor() < 350) and (ball.ycor() < batB.ycor() + 40 and ball.ycor() > batB.ycor() - 40):
