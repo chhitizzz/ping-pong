@@ -31,3 +31,10 @@ This is a simple implementation of the classic Ping Pong game using Python. The 
   You can modify the game settings by modifying the constants defined at the top of the pong.py file. 
   
   For example, you can adjust the window size, paddle size, ball speed, and more.
+
+# Screenshots 
+
+<img width="960" alt="1" src="https://github.com/chhitizzz/ping-pong/assets/137091888/61604ef1-8d50-4f27-a95e-0b297e106025">
+
+<img width="960" alt="2" src="https://github.com/chhitizzz/ping-pong/assets/137091888/a5a2705f-daf6-49eb-be4f-581a8ddb82ef">
+
