@@ -12,7 +12,7 @@ This is a simple implementation of the classic Ping Pong game using Python. The 
 2. Open a terminal or command prompt and navigate to the project directory.
 3. Run the following command to start the game:
    ```shell
-   python ping_pong.py
+   python pong.py
    ```
 4. The game window will appear, and the ball will start moving.
 5. Player 1 (left paddle) can control the paddle using the W and S keys (up and down).
