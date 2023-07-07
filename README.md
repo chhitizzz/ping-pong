@@ -2,35 +2,27 @@
 
 This is a simple implementation of the classic Ping Pong game using Python. The game is played between two players, where they control paddles to hit the ball back and forth, trying to score points against each other.
 
-# Requirements
+## Requirements
 
-  Python 3.x
+- Python 3.x
 
-# How to Play
+## How to Play
 
-  Clone or download the repository to your local machine.
-  
-  Open a terminal or command prompt and navigate to the project directory.
-  
-  Run the following command to start the game:
+1. Clone or download the repository to your local machine.
+2. Open a terminal or command prompt and navigate to the project directory.
+3. Run the following command to start the game:
+   ```shell
+   python ping_pong.py
+   ```
+4. The game window will appear, and the ball will start moving.
+5. Player 1 (left paddle) can control the paddle using the W and S keys (up and down).
+6. Player 2 (right paddle) can control the paddle using the Up and Down arrow keys.
+7. The goal is to hit the ball with the paddles and prevent it from going past your side.
+8. Each time the ball passes a paddle, the opposing player scores a point.
 
-    python pong.py
+## Customization
 
-  The game window will appear, and the ball will start moving.
-  
-  Player 1 (left paddle) can control the paddle using the W and S keys (up and down).
-  
-  Player 2 (right paddle) can control the paddle using the Up and Down arrow keys.
-  
-  The goal is to hit the ball with the paddles and prevent it from going past your side.
-  
-  Each time the ball passes a paddle, the opposing player scores a point.
-
- # Customization
-
-  You can modify the game settings by modifying the constants defined at the top of the pong.py file. 
-  
-  For example, you can adjust the window size, paddle size, ball speed, and more.
+- You can modify the game settings by modifying the constants defined at the top of the `pong.py` file. For example, you can adjust the window size, paddle size, ball speed, and more.
 
 # Screenshots 
 
